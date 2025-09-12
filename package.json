@@ -1,18 +1,10 @@
 {
   "name": "n8n-app",
   "version": "1.0.0",
-  "description": "N8N instance for automation workflows",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "n8n"
   },
   "dependencies": {
-    "n8n": "latest"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["n8n", "automation", "workflow"],
-  "author": "COEURCY",
-  "license": "MIT"
+    "n8n": "^1.67.0"
+  }
 }
