@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+.env
+*.sqlite
+*.db
+*.log
+
+# N8N
+.n8n/
+workflows/*.json   # si tu veux ne pas pousser certains workflows sensibles
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Render build files
+render-build/
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,7 @@
+GENERIC_TIMEZONE=Europe/Paris
+N8N_BASIC_AUTH_ACTIVE=true
+N8N_BASIC_AUTH_USER=coeurcy
+N8N_BASIC_AUTH_PASSWORD=motdepasse
+WEBHOOK_TUNNEL_URL=https://ton-service.onrender.com
+DB_TYPE=sqlite
+DB_SQLITE_DATABASE=/home/node/n8n/database.sqlite
