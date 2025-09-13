@@ -1,3 +1,6 @@
+![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![Banner image](https://img.shields.io/badge/Render-deployment-green?logo=render)
+
 # 🚀 n8n Automatisé sur Render
 
 [![n8n](https://img.shields.io/badge/n8n-automatisation-blue?logo=n8n)](https://n8n.io/)  
