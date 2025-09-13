@@ -1,7 +1,7 @@
-GENERIC_TIMEZONE=Europe/Paris
+GENERIC_TIMEZONE=Afrique/Congo-Brazzaville
 N8N_BASIC_AUTH_ACTIVE=true
 N8N_BASIC_AUTH_USER=coeurcy
-N8N_BASIC_AUTH_PASSWORD=motdepasse
-WEBHOOK_TUNNEL_URL=https://ton-service.onrender.com
+N8N_BASIC_AUTH_PASSWORD=Coeurcy}{boss|@88
+WEBHOOK_TUNNEL_URL=https://n8n-n8n_public.onrender.com
 DB_TYPE=sqlite
 DB_SQLITE_DATABASE=/home/node/n8n/database.sqlite

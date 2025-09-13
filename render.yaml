@@ -10,6 +10,6 @@ services:
       - key: N8N_BASIC_AUTH_USER
         value: "coeurcy"
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: "motdepassefort"
+        value: "Coeurcy}{boss|@88"
       - key: WEBHOOK_TUNNEL_URL
-        value: "https://ton-service.onrender.com"
+        value: "https://n8n-n8n_public.onrender.com"
