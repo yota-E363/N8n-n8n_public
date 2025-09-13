@@ -1,12 +1,12 @@
-![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
-![Banner image](https://img.shields.io/badge/Render-deployment-green?logo=render)
+[![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)](https://n8n.io/) 
+[![Banner image](https://img.shields.io/badge/Render-deployment-green?logo=render)](https://render.com/)
 
 # 🚀 n8n Automatisé sur Render
 
 [![n8n](https://img.shields.io/badge/n8n-automatisation-blue?logo=n8n)](https://n8n.io/)  
 [![Render](https://img.shields.io/badge/Render-deployment-green?logo=render)](https://render.com/)  
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://github.com/yota-E363/N8n-n8n_public/blob/main/LICENSE.md)  
-[![Site Démo](https://img.shields.io/badge/Démo-en%20ligne-orange)](https://n8n-render-auto-yf0i.onrender.com)
+[![Site Démo](https://img.shields.io/badge/Démo-en%20ligne-orange)](https://n8n-n8n_auto_public.onrender.com)
 
 ---
 
@@ -20,7 +20,7 @@ L’instance est **accessible en ligne**, sécurisée et capable de recevoir **d
 
 ## 🌍 Accéder au site
 
-🔗 [**Accéder à l’instance publique de n8n**](https://n8n-render-auto-yf0i.onrender.com)  
+🔗 [**Accéder à l’instance publique de n8n**](https://n8n-n8n_auto_public.onrender.com)  
 
 > ✅ Triggers et webhooks fonctionnent immédiatement grâce à l’URL publique fournie par Render.  
 > ⚡ Aucun tunnel externe (Ngrok) nécessaire.  
@@ -47,10 +47,10 @@ Créez votre copie en cliquant sur **[Fork](https://docs.github.com/fr/get-start
 |----------------------------|---------------------------------|-------------|
 | `N8N_BASIC_AUTH_ACTIVE`    | `true`                          | Active l’authentification |
 | `N8N_BASIC_AUTH_USER`      | `coeurcy`                       | Nom d’utilisateur |
-| `N8N_BASIC_AUTH_PASSWORD`  | `motdepassefort`                | Mot de passe |
-| `N8N_ENCRYPTION_KEY`       | `clé_ultra_secrète`             | Clé de chiffrement pour sécuriser les données |
-| `WEBHOOK_TUNNEL_URL`       | `https://ton-service.onrender.com` | URL publique pour webhooks |
-| `GENERIC_TIMEZONE`         | `Europe/Paris`                  | Fuseau horaire des workflows |
+| `N8N_BASIC_AUTH_PASSWORD`  | `*************`                | Mot de passe |
+| `N8N_ENCRYPTION_KEY`       | `*************`             | Clé de chiffrement pour sécuriser les données |
+| `WEBHOOK_TUNNEL_URL`       | `https://n8n-n8n_auto_public.onrender.com` | URL publique pour webhooks |
+| `GENERIC_TIMEZONE`         | `Africa/Congo-Brazzaville`                  | Fuseau horaire des workflows |
 | `DB_TYPE`                  | `sqlite`                        | Type de base de données |
 | `DB_SQLITE_DATABASE`       | `/home/node/n8n/database.sqlite` | Chemin du fichier SQLite |
 
