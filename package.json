@@ -1,0 +1,10 @@
+{
+  "name": "n8n-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "n8n": "^1.110.1"
+  }
+}

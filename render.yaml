@@ -1,0 +1,50 @@
+services:
+  - type: web
+    name: n8n-auto
+    env: docker
+    plan: free
+    autoDeploy: true
+    docker:
+      image: n8nio/n8n:1.110.1
+    envVars:
+      # Authentification Basic
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "coeurcy"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "Coeurcy}{boss|@88"
+
+      # URL publique et protocole
+      - key: N8N_HOST
+        value: "n8n-n8n_auto_public.onrender.com"
+      - key: N8N_PROTOCOL
+        value: "https"
+      - key: WEBHOOK_TUNNEL_URL
+        value: "https://n8n-n8n_auto_public.onrender.com"
+
+      # Fuseau horaire
+      - key: GENERIC_TIMEZONE
+        value: "Africa/Congo-Brazzaville"
+
+      # Clé de chiffrement
+      - key: N8N_ENCRYPTION_KEY
+        value: "Coeurcyboss}{Boss|@88-28092008_Cg-Br_Csc"
+
+      # Queue Mode pour gérer plusieurs webhooks simultanés
+      - key: EXECUTIONS_MODE
+        value: "queue"
+      - key: EXECUTIONS_PROCESS
+        value: "main"
+
+      # Redis optionnel
+      - key: QUEUE_BULL_REDIS_HOST
+        value: "redis-19940.c100.us-east-1-4.ec2.redns.redis-cloud.com"
+      - key: QUEUE_BULL_REDIS_PORT
+        value: "19940"
+      - key: QUEUE_BULL_REDIS_PASSWORD
+        value: "BfnnISF2aRhJbeM7ddnZtxE3p4wp2Vmh"
+
+      # Optionnel : URL de l’éditeur N8N
+      - key: N8N_EDITOR_BASE_URL
+        value: "https://n8n-n8n_auto_public.onrender.com"
