@@ -15,4 +15,4 @@ RUN npm ci --omit=dev
 COPY --chown=node:node ./index.js ./
 
 # Lancer n8n avec tunnel
-CMD ["n8n", "start", "--tunnel"]
+CMD ["n8n", "start", "--tunnel", "--port", "5678"]
